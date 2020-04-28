@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/main.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
   
   <title>Frontend Mentor | Ping coming soon page</title>
 
@@ -16,19 +20,34 @@
 </head>
 <body>
 
-  We are launching soon!
+  <div class="logo">
+    <img src="/images/logo.svg" alt="logo">
+  </div>
 
-  Subscribe and get notified
+  <div class="container">
+    <h1>We are launching <span>soon!</span></h1>
+    <p>Subscribe and get notified</p>
+  </div>
 
-  Notify Me
+  <div class="message">
+    <input type="email" id="email" placeholder="Your email address">
+    <button type="button">Notify Me</button>
+  </div>
 
-  &copy; Copyright Ping. All rights reserved.
+  <div class="illustration">
+    <img src="/images/illustration-dashboard.png" alt="illustration-dashboard">
+  </div>
+  
+  <div class="footer">
+    <p>&copy; Copyright Ping. All rights reserved.</p>
+  </div>
 
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://github.com/virinchi123/Frontend-Mentor-Ping-Coming-Soon-Page-Challenge">Rao Krishna Virinchi</a>.
     </p>
   </footer>
+
 </body>
 </html>

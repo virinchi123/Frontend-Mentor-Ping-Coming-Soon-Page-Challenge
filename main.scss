@@ -69,6 +69,19 @@ body{
             width: 30%;
             color: white;
         }
+
+        p{
+            i{
+                font-size: 0.5em;
+            }
+            margin: 0;
+            color: color(lightRed);
+            padding-left: 29px;
+            width: 100%;
+            align-self: flex-start;
+            display: none;
+            justify-self: initial;
+        }
     }
 
     .illustration{

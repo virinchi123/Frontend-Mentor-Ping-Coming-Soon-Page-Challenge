@@ -90,6 +90,22 @@ body .message button {
   color: white;
 }
 
+body .message p {
+  margin: 0;
+  color: #ff5263;
+  padding-left: 29px;
+  width: 100%;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  display: none;
+  -ms-grid-column-align: initial;
+      justify-self: initial;
+}
+
+body .message p i {
+  font-size: 0.5em;
+}
+
 body .illustration {
   -webkit-box-ordinal-group: 5;
       -ms-flex-order: 4;

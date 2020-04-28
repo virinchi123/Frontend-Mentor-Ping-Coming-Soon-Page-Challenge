@@ -31,6 +31,7 @@ body .container {
 
 body .container h1 {
   color: #969696;
+  text-align: center;
 }
 
 body .container h1 span {
@@ -52,6 +53,8 @@ body .message {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 body .message input {
@@ -116,5 +119,20 @@ body footer {
   -webkit-box-ordinal-group: 7;
       -ms-flex-order: 6;
           order: 6;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  body .message input {
+    width: 100%;
+    margin: auto;
+  }
+  body .message button {
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
